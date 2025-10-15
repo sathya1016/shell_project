@@ -13,8 +13,10 @@ set -o #pipeline failure
 df - h
 nproc 
 free
+top
 touch file
 mkdir folder
+
 ps -ef | grep amazon
 ps -ef | grep amazion awk-F" " '{print $2}'
 curl "https://github.com/iam-veeramalla/sandbox/blob/main/testlog" | grep Clustering
